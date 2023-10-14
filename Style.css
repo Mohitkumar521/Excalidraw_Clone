@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+#app {
+    display: flex;
+    height: 100vh;
+}
+
+#toolbar {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-right: 1px solid #ccc;
+}
+
+#canvas {
+    flex: 1;
+    background-color: #fff;
+}
+
+#drawer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-left: 1px solid #ccc;
+}
+
+button {
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    display: block;
+}
